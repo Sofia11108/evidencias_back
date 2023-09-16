@@ -1,0 +1,17 @@
+
+package debugueando;
+
+public class Ejercicio {
+	
+	double nota1 = 4;
+	double nota2 = 4;
+	
+	Ejercicio(){
+		promedio();
+	}
+
+	public void promedio() {
+		double resultado = (nota1 + nota2) / 2;
+		System.out.println(resultado);
+	}
+}

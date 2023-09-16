@@ -1,0 +1,17 @@
+package debugueando;
+
+public class Ejercicio {
+	
+	double nota1;
+	double nota2;
+	
+	public static void main(String[] args) {
+		System.out.println("hola");
+//		promedio();
+	}
+
+//	public static double promedio() {
+//		double resultado = nota1 + nota2;
+//		return resultado;
+//	}
+}

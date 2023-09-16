@@ -1,0 +1,16 @@
+import junit.framework.TestCase;
+
+public class TestOperaciones extends TestCase{
+	Operaciones opera;
+	
+	public TestOperaciones() {
+		opera = new Operaciones();
+	}
+
+	public void testSumar() {
+		assertEquals(10, opera.sumar(5, 5));
+	}
+	public void testRestar() {
+		assertEquals(3, opera.restar(5, 3));
+	}
+}
